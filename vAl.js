@@ -1,4 +1,4 @@
-
+const x=10
 
 
 const validation = (schema, args) => {
@@ -9,5 +9,5 @@ const validation = (schema, args) => {
 
 
 module.exports = {
-    validation
+    validation,x
 }
