@@ -12,7 +12,7 @@ app.use(moduleRouter.userRouter,
     moduleRouter.messageRouter,
     moduleRouter.authRouter)
 
-app.use("/" , (req,res)=>{"hello world !"} )
+app.get('/', (req, res) => res.send('Hello World!'))
     connDB()
 
 
